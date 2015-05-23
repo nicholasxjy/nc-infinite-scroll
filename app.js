@@ -130,7 +130,7 @@ angular.module('app', [
         console.log($scope.after);
         fetch($scope.after);
         $scope.spinnerShow = false;
-      }, 3000);
+      }, 1000);
     };
 
     $scope.loadMore();
